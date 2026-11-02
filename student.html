@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Registration Form</title>
+
+    
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Registration Form</h1>
+        <p style="text-align:center;">
+            Please fill in your details below.
+        </p>
+        <link rel="stylesheet" href="style.css">
+  
+    </header>
+
+    <main>
+        <div class="container">
+
+            <form action="#" method="post">
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name"
+                placeholder="Enter your full name" required>
+                <br><br>
+
+                <label for="matric">Matriculation Number:</label>
+                <input type="text" id="matric" name="matric"
+                placeholder="Enter your matric number" required>
+                <br><br>
+
+                <label for="department">Department:</label>
+                <select id="department" name="department" required>
+                    <option value="">Select Department</option>
+                    <option value="ICT">Information and Communication Technology</option>
+                    <option value="IT">Information Technology</option>
+                    <option value="CS">Computer Science</option>
+                    <option value="Cybersecurity">Cybersecurity</option>
+                    <option value="Data Science">Data Science</option>
+                </select>
+                <br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email"
+                placeholder="Enter your email" required>
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"
+                placeholder="Enter your phone number" required>
+                <br><br>
+
+                <label>Gender:</label><br>
+
+                <input type="radio" id="male" name="gender"
+                value="Male" required>
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender"
+                value="Female">
+                <label for="female">Female</label>
+                <br><br>
+
+                <label for="programme">Programme:</label>
+                <select id="programme" name="programme" required>
+                    <option value="">Select Programme</option>
+                    <option value="Full-Time">Full-Time</option>
+                    <option value="Part-Time">Part-Time</option>
+                </select>
+                <br><br>
+
+                <button type="submit">Submit Registration</button>
+
+            </form>
+
+        </div>
+    </main>
+
+</body>
+</html>
